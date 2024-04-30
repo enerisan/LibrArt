@@ -36,7 +36,7 @@ const router = createBrowserRouter([
         path: "/detail/:id",
         element: <DetailPage />,
         loader: ({ params }) =>
-          fetch(`http://localhost:3310/painting/${params.id}`),
+          fetch(`${import.meta.env.VITE_API_URL}/painting/${params.id}`),
       },
 
       {
