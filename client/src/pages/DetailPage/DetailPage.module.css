@@ -1,6 +1,6 @@
 @font-face {
   font-family: "inder-regular";
-  src: url("assets/fonts/Inder-Regular.ttf");
+  src: url("client/public/fonts/Inder-Regular.ttf");
 }
 
 .detailContainer {

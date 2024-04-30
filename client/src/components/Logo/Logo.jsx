@@ -1,3 +1,4 @@
+import logo from "../../assets/images/LibrArt.png";
 import styles from "./Logo.module.css";
 
 function Logo() {
@@ -8,11 +9,7 @@ function Logo() {
   return (
     <div>
       <button className={styles.Logo} type="button" onClick={redirectionToHome}>
-        <img
-          className={styles.logoImage}
-          src="src/assets/images/LibrArt.png"
-          alt="logo du site"
-        />
+        <img className={styles.logoImage} src={logo} alt="logo du site" />
       </button>
     </div>
   );

@@ -1,11 +1,11 @@
 @font-face {
   font-family: "inder-regular";
-  src: url("assets/fonts/Inder-Regular.ttf");
+  src: url("client/public/fonts/Inder-Regular.ttf");
 }
 
 @font-face {
   font-family: "montserrat-alternates";
-  src: url("assets\fonts\MontserratAlternates-Regular.ttf");
+  src: url("client/public/fonts/MontserratAlternates-Regular.ttf");
 }
 
 .main {

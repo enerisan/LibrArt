@@ -3,7 +3,7 @@
 }
 @font-face {
   font-family: "montserrat-alternates";
-  src: url("assets\fonts\MontserratAlternates-Regular.ttf");
+  src: url("client/public/fonts/MontserratAlternates-Regular.ttf");
 }
 
 .Footer {
